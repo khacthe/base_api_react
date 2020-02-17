@@ -12,6 +12,7 @@ gem "jbuilder", "~> 2.7"
 gem "bootsnap", ">= 1.4.2", require: false
 
 gem "puma"
+gem "figaro" # create file add env application.yml
 
 group :development, :test do
   gem "pry"
