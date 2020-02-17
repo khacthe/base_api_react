@@ -11,9 +11,18 @@
 
  ## config gem
  - Gem config giúp quản lý và sử dụng dễ dàng các settings trong project.
-  https://github.com/laserlemon/figaro
+
   ```
    gem "config"
 
    rails g config:install
   ```
+
+  ## paranoia gem
+  - Add column deleted_at to model
+   ```
+    gem "paranoia"
+
+    acts_as_paranoid # add to model use deleted_at column
+
+    ```

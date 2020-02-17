@@ -14,6 +14,7 @@ gem "bootsnap", ">= 1.4.2", require: false
 gem "puma"
 gem "figaro" # create file add env application.yml
 gem "config"
+gem "paranoia", "~> 2.4", ">= 2.4.2"
 
 group :development, :test do
   gem "pry"
